@@ -1,0 +1,131 @@
+body {
+  /* box-sizing: border-box;  */
+  margin: auto;
+  padding: 0%;
+  text-align: center;
+  background-color: #d1b892;
+}
+.uppernav {
+  display: flex;
+  background-color: rgb(209, 124, 124);
+  text-align: center;
+}
+.bxs {
+  display: flex;
+  width: 30%;
+  margin: auto;
+}
+.uppernav img {
+  width: 30%;
+  border-radius: 20%;
+}
+.line {
+  margin: auto;
+}
+.line h2,
+h3 {
+  font-size: 30px;
+}
+.line h3 {
+  color: rgb(209, 22, 1);
+}
+.intialsignin {
+  /* height: min-content; */
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: rgb(2, 1, 1);
+}
+/* dabbas */
+.oneh,
+.twoh,
+.threeh,
+.fourh,
+.fiveh,
+.sixh {
+  border-bottom: 4px solid green;
+  /* margin-top: 1%; */
+  width: 60%;
+  margin: auto;
+  padding: 0% 10% 10% 10%;
+  /* border: 3px solid red; */
+}
+img[src="user.png"] {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  /* border: 3px solid red; */
+}
+img[src="youtube.png"] {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  /* border: 3px solid red; */
+}
+img[src="attachment.png"] {
+  width: 15px;
+}
+img[src="attachment.png"]:hover {
+  border: 1px solid red;
+}
+
+
+h1 {
+  font-size: 60px;
+  font-family: "sofia";
+  color: blue;
+}
+
+/*buttons*/
+.signup,
+.buynow,
+.gym,
+.buynow2,
+.shopnow {
+  padding: 2%;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: seashell;
+  font-style: italic;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: indigo;
+  color: yellow;
+}
+
+.utubecontent {
+  padding: 10px;
+  margin: auto;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: teal;
+}
+.utubecontent img {
+  margin: 4%;
+  width: 70%;
+}
+
+.subsbtn {
+  margin: auto;
+  display: flex;
+  padding: 2% 4%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+}
+.subsbtn:hover {
+  background-color: red;
+  color: white;
+}
+
+footer {
+  font-size: 60px;
+  background-color: rgb(243, 147, 2);
+}
