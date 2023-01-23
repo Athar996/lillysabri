@@ -40,7 +40,6 @@ h3 {
   font-size: 30px;
   background-color: rgb(2, 1, 1);
 }
-/* dabbas */
 .oneh,
 .twoh,
 .threeh,
@@ -58,13 +57,11 @@ img[src="user.png"] {
   margin-top: 10px;
   width: 100px;
   height: 100px;
-  /* border: 3px solid red; */
 }
 img[src="youtube.png"] {
   margin-top: 10px;
   width: 100px;
   height: 100px;
-  /* border: 3px solid red; */
 }
 img[src="attachment.png"] {
   width: 15px;
@@ -76,7 +73,7 @@ img[src="attachment.png"]:hover {
 
 h1 {
   font-size: 60px;
-  font-family: "sofia";
+  font-family: "Times new roman";
   color: blue;
 }
 
